@@ -1,12 +1,14 @@
 const { pipeline } = require('stream')
 
-const configValidation = require('./configValidation.js')
+const { configValidation, validateArgumentsConfig } = require('./configValidation.js')
 const { readS, writeS, transformStream } = require('./stream')
 const cipher = require('./cipher.js')
 const readArgs = require('./args.js')
-let { config, input, output } = readArgs()
+const argsInput = process.argv.slice(2)
+let { config, input, output } = readArgs(argsInput)
 
-configValidation()
+configValidation(config)
+validateArgumentsConfig([argsInput[0], config])
 
 config = config.split('-')
 
