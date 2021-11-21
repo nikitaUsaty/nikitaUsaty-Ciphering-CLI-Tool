@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1637429333218" clover="3.2.0">
-  <project timestamp="1637429333218" name="All files">
+<coverage generated="1637503050981" clover="3.2.0">
+  <project timestamp="1637503050981" name="All files">
     <metrics statements="76" coveredstatements="76" conditionals="52" coveredconditionals="49" methods="10" coveredmethods="10" elements="138" coveredelements="135" complexity="0" loc="76" ncloc="76" packages="1" files="3" classes="3"/>
     <file name="args.js" path="/Users/mikitausaty/nikitaUsaty-Ciphering-CLI-Tool/bin/args.js">
       <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="7" methods="4" coveredmethods="4"/>

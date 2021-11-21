@@ -7,7 +7,7 @@
     "cipher-cli": "./bin/index.js"
   },
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
