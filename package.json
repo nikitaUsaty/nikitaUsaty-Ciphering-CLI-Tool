@@ -1,0 +1,25 @@
+{
+  "name": "nikitausaty-ciphering-cli-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "cipher-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitaUsaty/nikitaUsaty-Ciphering-CLI-Tool.git"
+  },
+  "author": "Mikita Usaty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikitaUsaty/nikitaUsaty-Ciphering-CLI-Tool/issues"
+  },
+  "homepage": "https://github.com/nikitaUsaty/nikitaUsaty-Ciphering-CLI-Tool#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
